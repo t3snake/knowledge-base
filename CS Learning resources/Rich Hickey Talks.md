@@ -1,3 +1,3 @@
-[[Simple made easy]]
-[[Hammock Driven development]]
-[[Design in Practice]]
+[[Simple made easy]]  
+[[Hammock Driven development]]  
+[[Design in Practice]]  
