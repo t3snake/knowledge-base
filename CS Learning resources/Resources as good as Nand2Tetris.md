@@ -4,5 +4,6 @@
 [[Little X series]]  
 [[Charles Petzold's CODE]]  
 [[Linux from scratch]] [Site](https://www.linuxfromscratch.org/)  
+[[hackattic]]: Free alternative codecrafters.io
 
 
