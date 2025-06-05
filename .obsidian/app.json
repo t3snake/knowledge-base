@@ -1,3 +1,6 @@
 {
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "vimMode": true
 }
