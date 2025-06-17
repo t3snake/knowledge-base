@@ -1,3 +1,9 @@
+---
+tags:
+  - mental_health
+  - todo
+---
+
 [Dr K Video](https://www.youtube.com/live/bMa9dAYdTE0?si=s1M13wzqaQQUJG-3)  
 
 Big Ideas, Big Dreams  

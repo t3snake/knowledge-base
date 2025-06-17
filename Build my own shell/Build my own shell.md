@@ -1,3 +1,9 @@
+---
+tags:
+  - shell
+  - golang
+---
+
 [Github Repo](https://github.com/t3snake/shell-go-codecrafters)  
 [Codecrafters Specs](https://app.codecrafters.io/courses/shell/overview)  
 
