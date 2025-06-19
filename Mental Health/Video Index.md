@@ -10,5 +10,5 @@ tags:
 [[Root of tiredness]]: https://www.youtube.com/watch?v=MS69T-kRtOM  
 [[Building a fulfilling career]]: https://www.youtube.com/watch?v=irIh9hU7lSE  
 [[Puer Aeternus - Eternal Youth]]  
-[[Psychology of money]]: https://www.youtube.com/watch?v=18y_XMddUWY  
-[[Deep dive into anger]]
+[[Psychology of money]]  
+[[Deep dive into anger]]: https://www.youtube.com/watch?v=G-Tw6HcSO_g
