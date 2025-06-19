@@ -35,4 +35,6 @@ Stack, variables added to stack, when function returns to caller, all the stack 
 CPU to ram distance (8cm approx) , speed of light / 3.2ghz = 8cm. i.e. even a photon cant make a round trip in a single clock cycle. Thus memory is expensive. Optimization ram built into the CPU?  
 GHZ  is the unit of a single clock tick tock #todo check this out.  
 Latency is the time it takes to make a round trip.  
-Throughput is the amount of operation that can be done between first round trip started until the first round trip is finished.  
+Throughput or Bandwidth is the amount of operation that can be done between first round trip started until the first round trip is finished. Or in peak traffic how many operations can I start in a second.  
+
+In CPU, L1 cache is closest, then L2 and L3 which are pieces of memory on CPU to reduce round trips to memory.
