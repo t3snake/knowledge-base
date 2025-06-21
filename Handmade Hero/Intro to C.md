@@ -30,6 +30,13 @@ Binary: 11111111  or Hex: 0FF
 
 Virtual memory is not the exact memory address but aa virtual one so that other programs cant access for eg. password in another process
 
+Endian > Big and little is just ordering of bits/bytes.  
+Modern ones are all little endians where lower order bytes are filled first and then higher order bytes. for eg unsigned int = 500 would be 256 + 244 or 00000001 11110100 which in memory is 244 and 1.  
+
+Ps3 Xbox 360 and older were big endian, ps4 onwards is little. Old formats might be in big endian > might need to convert into little endian to read.
+
+Structs may use different blocks of memory instead of next to each other.
+
 Stack, variables added to stack, when function returns to caller, all the stack variables is cleared. Can only delete from top.
 
 CPU to ram distance (8cm approx) , speed of light / 3.2ghz = 8cm. i.e. even a photon cant make a round trip in a single clock cycle. Thus memory is expensive. Optimization ram built into the CPU?  
