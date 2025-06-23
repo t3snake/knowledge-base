@@ -56,3 +56,49 @@ if not pointer `ABC.member`, if pointer `ABC->member`. There is no other special
 
 In debug mode visual studio puts in 204 in all unassigned/garbage memory. Its basically 0xCC in hex which dev can quickly see that it is uninitialized. In production mode, compiler wont spend effort trying to do that.  
 
+## Bitwise operators
+
+### Shift
+> \>> or <<
+
+    x = 1   // 0001  
+	x = x << 1  // 0010  
+
+in hexadecimal 
+
+    x = 10    // 0x00000a  
+    x = x << 4    // 0x0000a0  
+
+1 digit in hex is 4 digits in binary << and >> work with binary digits
+In C by default if shifted out of range, the bit is lost and cant be recovered.  
+> **Note**: whatever we do a **<< 1** on will be doubled and **>> 1** will be halved (if no bits lost).
+> **<< 2** will quadruple (2 pow 2) it, **<< 3** will multiply 8 and so on...
+
+### Or
+> |
+
+Basically an or operator.
+
+	x = (1 << 4) | (1 << 8) // 0x0010 or 0x0100 = 0x0110
+
+### And
+> &
+
+Basically an and operator.  
+
+	x = (1 << 4) | (1 << 8) | (1) // 0x0111
+	y = (1 << 4) | (1 << 12)      // 0x1010
+	x = x & y                     // 0x0010
+
+### Xor
+> ^
+
+Basically exclusive all operator
+
+	x = (1 << 4) | (1 << 8)   // 0x00110
+	y = (1 << 8) | (1 << 16)  // 0x10100
+	x = x ^ y                 // 0x10010
+	x = x ^ y                 // 0x00110 we get back original x
+
+We can xor with the same key twice to get back original value.   
+
