@@ -49,10 +49,10 @@ In CPU, L1 cache is closest, then L2 and L3 which are pieces of memory on CPU to
 Even though pointers are size 4 ie stores address, C needs to know what it is pinting at so type matters but we can cast to 1byte pointer for a 16 byte type and then work on single bytes.
 
 Arrays are basically pointers. int array\[30] -> no need to do &array, array points to the first index automatically.  
-In c when we do (ptr + 30)->member, it basically already converts to ptr + 30 * sizeof(ptr)
-If we want to do manual we might need to do (ptr_type * ) ( (char * )ptr + 30 * sizeof(ptr)) to basically do what (ptr + 30) does. Cast to char * to work in single bytes.  
+In c when we do `(ptr + 30)->member`, it basically already converts to `ptr + 30 * sizeof(ptr)`
+If we want to do manual we might need to do `(ptr_type * ) ( (char * )ptr + 30 * sizeof(ptr))` to basically do what `(ptr + 30)` does. Cast to `char *` to work in single bytes.  
 
-if not pointer ABC.member, if pointer ABC->member. There is no other special difference.
+if not pointer `ABC.member`, if pointer `ABC->member`. There is no other special difference.
 
 In debug mode visual studio puts in 204 in all unassigned/garbage memory. Its basically 0xCC in hex which dev can quickly see that it is uninitialized. In production mode, compiler wont spend effort trying to do that.  
 
