@@ -2,5 +2,6 @@
   "strictLineBreaks": true,
   "defaultViewMode": "preview",
   "livePreview": false,
-  "vimMode": true
+  "vimMode": true,
+  "spellcheck": false
 }

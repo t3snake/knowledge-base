@@ -1,3 +1,9 @@
+---
+tags:
+ - todo
+---
+
+
 How to think about computation  
 [[The Little Schemer]]: [https://mitpress.mit.edu/9780262560993/the-little-schemer/](https://mitpress.mit.edu/9780262560993/the-little-schemer/)  
 [[The Little Prover]]: [https://mitpress.mit.edu/9780262527958/the-little-prover/](https://mitpress.mit.edu/9780262527958/the-little-prover/)  
