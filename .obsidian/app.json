@@ -3,5 +3,6 @@
   "defaultViewMode": "preview",
   "livePreview": false,
   "vimMode": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "alwaysUpdateLinks": true
 }
