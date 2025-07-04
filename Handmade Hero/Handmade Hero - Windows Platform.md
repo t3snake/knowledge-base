@@ -83,4 +83,25 @@ Pitch or Stride is the distance of bits between 2 rows.
 Note: char unsigned is long and we need to use it for 8bit/byte conversion a lot. in stdint.h they have defined convenient types such as uint8_t, uint32_t ...intr_t and so on.
 ```
 
+Pixels are represented in XX RR GG BB where BB are the first 8 bits then green is next 8 bits and so on for single pixel being 32 bits.  
+we could get a unsigned 8 bit ptr and do following:  
+```C
+*pixel = 208; //blue channel (0-255)
+pixel++; // if pixel is unsigned char* ptr or uint8_t then ++ moves 8bits
+*pixel = 0; // green channel
+pixel++;
+*pixel = 12; //red channel
+pixel++
+*pixel = 0; // padded bits, could be alpha channel?
+```
+Or we could do the following to set pixel in one go using bitwise operations:  
+```C
+uint8_t red = 12;
+uint8_t green = 0;
+uint8_t blue = 208;
 
+*(pixel++) = (red << 16) | (green << 8) | (blue);
+```
+
+To paint/ blit in other places other than WM_PAINT, we likely need device context.
+we can use`GetDC(window_handle, rect)` to get device context but **do not forget** to return the dc with `ReleaseDC(window_handle, rect)`
