@@ -4,5 +4,6 @@
   "livePreview": false,
   "vimMode": true,
   "spellcheck": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false
 }

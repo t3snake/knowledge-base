@@ -4,6 +4,8 @@ tags:
  - handmade
 ---
 
+# Windows Entry Point
+
 ## Create a Window
 #Day_1_Handmade  
 WinMain is the entry point for Windows apps which are non cli, most other editors using main is for cli apps which input and output to cli and start there.  
@@ -30,6 +32,8 @@ In the `Win32MainWindowCallback` we can overwrite default behavior such as close
 In WinMain, if RegisterClass is successful we create window using `CreateWindowEx` (just `CreateWindow` with extra options). Docs say we can use CW_DEFAULT for coordinates.  
 If it is not NULL or non zero then the window was successfully created and can proceed.  
 If zero or NULL in create or register window, it is a failure and some logging might be required. 
+
+# Windows Painting API
 
 ### Painting on window
 Window borders are painted by os, we are responsible for painting the client area.  
@@ -104,4 +108,26 @@ uint8_t blue = 208;
 ```
 
 To paint/ blit in other places other than WM_PAINT, we likely need device context.
-we can use`GetDC(window_handle, rect)` to get device context but **do not forget** to return the dc with `ReleaseDC(window_handle, rect)`
+we can use`GetDC(window_handle, rect)` to get device context but **do not forget** to return the dc with `ReleaseDC(window_handle, rect)` (for loop with getDC call without releaseDC had a memory leak)
+
+
+# Windows XInput API
+A very simple API.
+include `xinput.h` and load the library dll relevant (mostly 1.4)
+
+To dynamically load dlls using function ptrs:
+#c_programming Function pointers
+```c
+#define InputStateGetMacro(name) DWORD name(DWORD dwUserIndex, XINPUT_STATE* pState)
+// defines a func ptr type with signature defined in prev statement
+typedef InputStateGetMacro(fp_x_input_get_state); 
+// create func ptr of the type
+fp_x_input_get_state* XInputGetStatePtr 
+
+// load a dll (searches in exe directory, ..., System32 directory, ...)
+HMODULE xinput_lib_handle;
+xinput_lib_handle = LoadLibraryA("Xinput1_4.dll");
+
+// Get pointer from library and cast it to the pointer we defined
+XInputGetStatePtr = (fp_x_input_get_state *) GetProcAddress(xinput_lib_handle, "XInputGetState");
+```
