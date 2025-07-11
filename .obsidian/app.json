@@ -5,5 +5,5 @@
   "vimMode": true,
   "spellcheck": false,
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": true
 }

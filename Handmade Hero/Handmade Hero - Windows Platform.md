@@ -117,7 +117,7 @@ include `xinput.h` and load the library dll relevant (mostly 1.4)
 
 To dynamically load dlls using function ptrs:
 #c_programming Function pointers
-```c
+```cpp
 #define InputStateGetMacro(name) DWORD name(DWORD dwUserIndex, XINPUT_STATE* pState)
 // defines a func ptr type with signature defined in prev statement
 typedef InputStateGetMacro(fp_x_input_get_state); 
