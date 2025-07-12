@@ -3,6 +3,7 @@ tags:
  - c_programming
  - handmade
 ---
+[Code summary](https://guide.handmadehero.org/code/day005/): 47:17  
 
 # Windows Entry Point
 
