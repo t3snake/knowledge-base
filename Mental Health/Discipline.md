@@ -35,3 +35,20 @@ Community (*Sangha*) can also help (for eg: community like group doing HIIT: CUL
 ## Detachment
 (*Vairagya*) or [[Detachment]]  
 Care less about the thing that makes you undisciplined. Control attachment to your desire.  
+
+Nucleus Accumbens *NAcc* does 3 things:
+- Dopamine released gives us rush of pleasure
+- Behavior reinforcement (creates desire)
+- Increase anticipation (craving)
+
+If we want to use this to our advantage we need to savour the moments of discipline. Increase desire for action that requires discipline:  
+
+What usually happens after period of hard work (like exams) is like fuck yeah lets go party, order a pizza, play a game etc. The brain associates reward with the pleasure but the hard work as pain. We take the joy out of hard work it becomes 2 separate things to the brain.  
+
+So after doing the thing we want to be disciplined for: Sit down for 15 mins, appreciate it, dont go right at the distraction. Say fuck yeah! Recap what you did. Enjoy it.
+
+This could make Gym (50 unit desire) vs FF7 (50 unit desire). 1 unit willpower needed to do Gym. It is struggle for undisciplined people and easy for disciplined people to choose the gym over video game.  
+
+Alternatively we can reduce desire of FF7 to 40 then 30 (and so on) units of desire by detachment.  
+One simple way to cultivate detachment is to analyze desire.  
+FFRIs show 1 truth that not all parts of the brain get blood equally at the same time. Either NAcc is active or the analytical part of the brain. You can either laugh at the joke or understand/dissect it, you cannot do both.  
