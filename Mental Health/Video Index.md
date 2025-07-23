@@ -2,6 +2,8 @@
 tags:
   - mental_health
 ---
+[Search tool](https://hgsearch.ridhom.dev)  
+
 ## Free Videos
 [[Stop caring about what you are told]]: https://www.youtube.com/watch?v=VPYOY6JquwY  
 [[Socially anxious extrovert]]: https://www.youtube.com/watch?v=2qGe9ctFP1o   
