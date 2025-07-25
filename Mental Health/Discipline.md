@@ -1,9 +1,9 @@
 ---
 tags:
   - mental_health
-  - todo
 ---
 [Video](https://www.youtube.com/live/rUA6xYRYcdw?si=a2zqTIk9w5bd95M4)  
+[Quest](https://docs.google.com/document/d/1WIoZYSuZkFCJpwmnk00Cx2E2zeBASp2Mt9VHXnjevQ4/edit?usp=sharing)  
 
 Discipline is having 1 thought for extended periods of time.  
 ADHD is having multiple thoughts.  
@@ -52,3 +52,56 @@ This could make Gym (50 unit desire) vs FF7 (50 unit desire). 1 unit willpower n
 Alternatively we can reduce desire of FF7 to 40 then 30 (and so on) units of desire by detachment.  
 One simple way to cultivate detachment is to analyze desire.  
 FFRIs show 1 truth that not all parts of the brain get blood equally at the same time. Either NAcc is active or the analytical part of the brain. You can either laugh at the joke or understand/dissect it, you cannot do both.  
+
+It is a waiting game, you will always win the waiting game over desire, desire will try to get you to cave in quickly.
+
+## Meditations
+- Trataka
+- Antara Trataka
+- Yantra Trataka
+
+When we look at something for extended period of time, pigments run out, we look around to reegenerate different pigments. If we exhaust pigments looking at something and close our eyes (**Antar Trataka**) we see a negative image of what we saw. Maintaining this requires the right level of focus. If focus too hard or less, the image disappears. It requires a relaxed focus.
+
+## Analyze Desire
+Observe before, during and after. I really want to eat this/ play this >> What is it like before, during and after. We are recruiting different part of the brain (from FMRI analogy), reducing savouring of the experience and desire goes away.
+
+For the things we want to be disciplined above, we shsould savour it.
+
+## Mandala Practice
+Everyone does action for some benefit, we need to practice action that has no benefit.
+**Mandala** is the practice of making a pattern like rangoli and destroying it.  
+Separate action from the outcome, leads to easier action. Resistance to starting an action comes from being attached to the outcome. If no benefit, reluctant to act etc.
+
+## Quadrants
+```
+         Internal
+            |
+   *Duty*   |  *Desire*
+            |
+Loss -------+--------- Gain
+            |
+*Shoulds*   |  *Values*
+            |
+         External
+```
+
+Desire and Shoulds dont lead to discipline.  
+Duty and Values leads to discipline.  
+
+## Habit - Action w/o Effort
+Discipline is consistent action but doesnt need to be consistent effort.  
+- It takes 2 - 4 weeks to form. Being too ambitious is the biggest mistake.  
+  25% rule: If want to meditate 20 minutes -> make goal as 5 minutes to start.  
+- Anchor new habit to existing behavior/habit.  
+- While forming habit, for the initial 2 to 4 weeks, do it no matter what happens, timescale may demotivate you "dont want to do this forever", We only want to do it for 2 weeks no matter what, then we can give up.  
+- Smooth the path, Anticipate the resistance (eg: you take mail everyday while coming back home, but sometimes coworker drops you and you are embarassed to ask them to stop). Make it easy for yourself to be successful.
+- Study the habit. Analyze/Autopsy: What went wrong, What went right, Where can I do better
+```
+Note: Habit circuitry is governed by Endo cannabinoid system. MJ also acts on that and will mess with the system.
+```
+
+## Karma Perspective
+You wake up as a different person everyday.  
+By indulging today, you screw the future you who is different.  
+Ask: How do I want to wake up tomorrow? Having done the task or the task looming over me.  
+Todays actions will not help us today (dopamine does) it will help in the future. It is a gift from todays self to future self (compared to indulging today to screw up future self)
