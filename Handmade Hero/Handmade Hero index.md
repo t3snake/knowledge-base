@@ -1,3 +1,4 @@
 [[Intro to C]]  
-[[Handmade Hero - Windows Platform]]  
+[[Windows Platform]]  
+[[Platform API Design]]
 

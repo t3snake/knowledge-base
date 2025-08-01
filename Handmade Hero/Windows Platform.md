@@ -113,6 +113,7 @@ we can use`GetDC(window_handle, rect)` to get device context but **do not forget
 
 
 # Windows XInput API
+#Day_6_Handmade 
 A very simple API.
 include `xinput.h` and load the library dll relevant (mostly 1.4)
 
@@ -132,3 +133,18 @@ xinput_lib_handle = LoadLibraryA("Xinput1_4.dll");
 // Get pointer from library and cast it to the pointer we defined
 XInputGetStatePtr = (fp_x_input_get_state *) GetProcAddress(xinput_lib_handle, "XInputGetState");
 ```
+
+
+# Windows Sound API
+#Day_7_Handmade
+Handmade Hero uses directsound, I will be using WASAPI.  
+[WASAPI](https://learn.microsoft.com/en-us/windows/win32/coreaudio/wasapi)  
+[Rendering Sound](https://learn.microsoft.com/en-us/windows/win32/coreaudio/rendering-a-stream)  
+
+Sound uses mostly a ring/circular buffer which is n bytes for eg and it keeps looping on the buffer.
+
+**Sampling**: a continuous sound signal is made discrete by measuring at regular intervals. The intervals are known as sample points and rate at which measurements are taken is called **sample rate** measured in Hertz. 44.1kHz means 44100 samples are taken every second.
+
+If we use a 2 second buffer at 44.1kHz, we can store 98200 samples. If our game targets 60 frames/second then we should be producing 735 samples per frame (44100  samples per second / 60 fps).
+
+There is a cursor that hardware uses to reproduce sound based on the data in the buffer. We should write data a bit ahead of the hardware cursor but not too much (latency). We cant write at the hardware cursor since that can get problematic with the hardware reading it. So maybe the target is writing 1 frame ahead or 16.66 ms ahead.
