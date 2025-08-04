@@ -17,3 +17,4 @@ tags:
 [[Deep dive into anger]]: https://www.youtube.com/watch?v=G-Tw6HcSO_g  
 [[Discipline]]  
 [[Detachment]]  
+[[Anger]]  
