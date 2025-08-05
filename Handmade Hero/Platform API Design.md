@@ -20,8 +20,8 @@ Problems with this approach is:
 - Make the code very messy since each place would require this preprocessor. And editor  support would be required to fold the preprocessor.  
 - This would require equivalent control flow for each platform. Each platform might have very different flows for startups and services etc. Eg: message loop in windows vs something else in linux.  
 
-# Virtualizing the OS for the game
-Abstracting different parts of platforms into a common interface (header file) and the game will just call common interface.
+# Separate Platform Files as entry point
+Abstracting different parts of platforms into a common interface (header file) and the game will just call common interface.  
 ```cpp
 // in header file
 void *PlatformLoadFile(char* file_name);
@@ -38,3 +38,6 @@ void *PlatformLoadFile(char* file_name){
 
 // The compiler will actually only compile either for windows or for linux so for each platform there will only be one implementation. Different from OOP kind of interfaces.
 ```
+
+# Virtualizing the OS for the game
+**Note**: we wont do it this way.  

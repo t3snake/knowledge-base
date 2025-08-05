@@ -3,3 +3,6 @@
 https://learnopengl.com/  
 randy youtube channel  
 
+# Game engine resources
+https://engine-programming.github.io/  
+
