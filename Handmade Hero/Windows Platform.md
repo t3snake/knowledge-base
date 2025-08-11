@@ -145,6 +145,20 @@ Sound uses mostly a ring/circular buffer which is n bytes for eg and it keeps lo
 
 **Sampling**: a continuous sound signal is made discrete by measuring at regular intervals. The intervals are known as sample points and rate at which measurements are taken is called **sample rate** measured in Hertz. 44.1kHz means 44100 samples are taken every second.
 
+[Audio Concepts](https://www.dspforaudioprogramming.com/)  
+#audio_programming
+```
+Sound Concepts  (Aside)
+A "Signal" is a list of numbers.
+The numbers are called "samples" which measure the "amplitude" at respective point of time. Usually [-1, 1]. Most common sample rate is 44.1khz or 44100 samples per second.
+
+"Bit Depth" is the range of values to represent a value of amplitude between 1 and -1. 32 bit depth int means we can represent 2^32 values and thus is almost continuous. Float would be expensive to work with thus we work with ints to represent the amp. Retro sounded noisier because there are less bits and less continuous sounding sound.
+
+"Frequency" instead of samples per second this is cycles per second. For a sine wave one cycle in from a peak to next peak for eg. measured in hz.
+
+"Phase" measures difference in 2 different frequency. If 2 exactly same sine wave have different starting points in time graph, then they are out of phase. If they have same starting phase they add up nicely and are called in same phase. if one wave is at 0 degree and other at 90 degree that is at each point one sound is negative of the other sound they perfectly cacel each other. This is called phase cancellation. 
+```
+
 If we use a 2 second buffer at 44.1kHz, we can store 98200 samples. If our game targets 60 frames/second then we should be producing 735 samples per frame (44100  samples per second / 60 fps).
 
 There is a cursor that hardware uses to reproduce sound based on the data in the buffer. We should write data a bit ahead of the hardware cursor but not too much (latency). We cant write at the hardware cursor since that can get problematic with the hardware reading it. So maybe the target is writing 1 frame ahead or 16.66 ms ahead.
