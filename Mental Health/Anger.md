@@ -11,7 +11,7 @@ Anger gives a single solution which we assume at the time is the only solution. 
 
 # Patterns of Brain
 Ask yourself how you are being violated when you feel angry. Use following framework:
-*What is being violated/diminished* :
+*What is being violated/diminished*:  
 **Freedom**: Controlled, dominated, exploited  
 **Function**: Disabled, immobile, restricted (takes away ability to function)  
 **Resources**: Robbed, Cheated  

@@ -9,12 +9,12 @@ tags:
 [[Socially anxious extrovert]]: https://www.youtube.com/watch?v=2qGe9ctFP1o   
 
 ## Members Videos
-[[Communication 101]]  
+[[Communication 101]]: https://www.youtube.com/live/64lqHV1w-lg?si=wHYbSdbobTMSm1XQ  
 [[Root of tiredness]]  
 [[Building a fulfilling career]]  
 [[Puer Aeternus - Eternal Youth]]  
 [[Psychology of money]]  
-[[Deep dive into anger]]: https://www.youtube.com/watch?v=G-Tw6HcSO_g  
 [[Discipline]]  
 [[Detachment]]  
 [[Anger]]  
+[[Decison Making]]: https://www.youtube.com/live/bNb89Joc3C0?si=ywwT3mM-EQCzlgKC  
