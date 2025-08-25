@@ -2,6 +2,7 @@
 tags:
   - mental_health
 ---
+[HG Member Video Playlist](https://youtube.com/playlist?list=UUMOlHVl2N3jPEbkNJVx-ItQIQ&si=inNS_TE4Hgy1aOIJ)  
 [Search tool](https://hgsearch.ridhom.dev)  
 
 ## Free Videos
