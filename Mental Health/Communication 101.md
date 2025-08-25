@@ -34,7 +34,13 @@ We have a writer and an editor in our brain, we cant be fluid if both are gettin
 
 Clear speech comes from clear thought. Unclear thought leads to unclear speech.  
 
-1. Writing 
+1. Writing  
    One way to have clear thought is to write. Writing and giving it multiple passes is a good way to improve thought and speech.
-2. Think about your Audience
+2. Think about your Audience  
    Broca's area does what you tell it to do, thats how it knows which words to pick. "What are the goals of this?" kind of big picture needs to be defined, the more it is defined, the easier it is for parts of the brain to figure out the words. Eg: If you have convo with GF, we might think the goal of convo is for us but most likely it is to specifically express my thoughts or understanding the other party.
+3. Think about your intention, goal of the conversation  
+   #todo Brain will align if the intention and goal is clear.
+4. Use your emotions to your advantage  
+   Negative emotions can influence parts of the brain that influence speech, thus that needs to be taken care of but also you can be emotionally stable and use that to be authentic and impactful in speech
+5. Wrong perception  
+   Wrong perception can influence speech and cause hampering of clear speech. #todo  
