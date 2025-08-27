@@ -37,3 +37,51 @@ If you feel like you might be a Puer or Puella Aeternus, you must practice embra
 - **Reconnect with your body to anchor you in reality.** This helps to regulate your nervous system and diminish negative emotions.
 - **Move in the direction of your fears**, and put your talents and efforts in service of something greater. This helps you overcome built-up internal resistance to moving forward in life.
 
+# Part 3 (Membership)
+
+## Evidence Based Approach
+There is an overlap between ADHD and Puer, but ADHD does not completely map with Puer, Puer shows as ADHD, Avoidant attachment, C-PTSD and other issues.  
+- Talk to professional
+- EQ -> self awareness, emotional regulation ...
+#todo
+
+## Classic Approach
+Individual has a concious mind and unconcious mind. The concious part gets thoughts we are aware of but also other thoughts that comes out of nowhere. This comes from the unconscious mind specifically from the archetype. Mind providing fantastical solutions to ordinary problems is an example of unwanted thought that comes from the puer archetype.
+
+There are lot of conflicts in the unconscius mind and only roughly 3/10 problems rise to the conscious mind. CBT mostly applies to the conscious mind.
+Yogis went deeper than mind and did not care about the unconscious mind. Purify mind completely by deleting ego, dont need to fix specific issues.  
+
+There are 3 Layers:
+- Conscious
+- Unconscious / Archetype
+- Tattva (Quality) / Universe
+
+Tattva projects to unconscious and material. Unconscious projects to the conscious.  
+
+Qualities of Puer:
+- Loss of potential
+- Very careful about time
+- narrowing of possibilities
+- Loathing general work
+
+(Shadow Work) Question to ask: where did you learn  ...  
+- that time is limited?  
+- that you cant afford to commit?  
+- to loathe general work? -> here ADHD and parents might be the reason  
+
+What puer really needs to do is substitute thinking with experience, get more data.  
+Giving it your all (devastating) ---> Picking yourself up (wonderful). This might be reality but we just thinking about giving it your all and failing would be devastating and never see it through the end.  
+Fear of the thing is more problematic than the actual thing.  
+
+## Spiritual Approach
+
+- Puer has a big Ahamkara issue.  
+I dont wanna travel the world, I wanna be a person that travels the world.  
+I want to be in shape vs I want to be a person who is in shape.  
+I want that, I am ... its all ego.  
+If you lose ego, goodbye puer.  
+
+- Puer has a big issue with time (Kaal?)  
+Forever, how much time, ... is all issue with time.  
+Unpleasantness is not just that but its unpleasantness forever which causes inaction.   
+
