@@ -1,3 +1,7 @@
+## Math
+[Gilbert Strang Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)  
+[Chris Hecker Physics Resources](https://chrishecker.com/Physics_References)  
+
 ## Programming
 [[Game Programming Patterns]]: [Book](https://gameprogrammingpatterns.com/)  
 [[Handmade Hero index]]  
