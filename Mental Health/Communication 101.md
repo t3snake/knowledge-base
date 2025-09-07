@@ -18,7 +18,7 @@ These are the parts of our brain responsible for speech:
 - **Auditory Association Cortex**
   First time we hear new words we dont know what that means. This adds meaning to words. For example triggered by words happens through here.  
 - **Limbic system**
-  Where we experience emothions. In emotional state, this affects the above areas.
+  Where we experience emotions. In emotional state, this affects the above areas.
 - **Frontal Lobes** ACC and mPFC
   Monitors our speech.  
 
