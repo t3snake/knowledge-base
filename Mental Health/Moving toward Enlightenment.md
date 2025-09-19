@@ -31,4 +31,11 @@ Eg: Casinos implement this very well, they implement it in a way that dimension 
 
 ## One pointedness of the mind
 People who suffer have two tracked mind.  
-Eg: social anxious person on a date, the one track is being in the experience, the other track is commentary on the experience: what if they dont  like me etc.  
+Eg: social anxious person on a date, the one track is being in the experience, the other track is commentary on the experience: what if they dont like me etc.  
+Work can be pleasurable if we get in the flow state ie. One pointed.  
+Orgasm is also an example of one pointedness, if we become 2 tracked and think about how the other person is feeling then you will lose the fun.  
+
+## Conclusion
+Circumstance does not matter for happiness : being fit, having 100k $, getting promotion etc.  
+But we are in control of it despite our circumstance.  
+Happiness is dictated by what parts of our brains are active and this is a scientific fact.  

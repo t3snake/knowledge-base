@@ -20,3 +20,4 @@ tags:
 [[Detachment Deepdive]]  
 [[Anger Deepdive]]  
 [[Decison Making Deepdive]]: https://www.youtube.com/live/bNb89Joc3C0?si=ywwT3mM-EQCzlgKC  
+[[Working through Inaction]]  
