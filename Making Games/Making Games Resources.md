@@ -31,7 +31,7 @@ https://engine-programming.github.io/
 
 # Art
 ## Pixel Art
-[Articles Beginner by Saint11](https://saint11.art/pixel_articles/)
+[Articles Beginner by Saint11](https://saint11.art/pixel_articles/)  
 [Cool pixel art tutorials by Saint11](https://saint11.art/blog/pixel-art-tutorials/)  
 [Pixel Logic Book by Michael](https://michafrar.gumroad.com/l/pixel-logic)  
 
