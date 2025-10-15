@@ -70,7 +70,7 @@ If given an invalid sequence of tokens then it should detect and tell the user a
 
 Hard requirements:
 - Detect and report the error: If malformed tree is passed further then the interpreter breaks.
-- Avoid crashing or hanging: Syntax  errors are common. Crashing or getting stuck in infinite loop isnt allowed. Even if source code is not valide, the input to the interpreter is a valid one.  
+- Avoid crashing or hanging: Syntax  errors are common. Crashing or getting stuck in infinite loop isnt allowed. Even if source code is not valid, the input to the interpreter is a valid one.  
 
 Decency requirements:
 - **Be fast**: People expect their editors to reparse files in milliseconds and computers are fast enough to do it.  
@@ -78,7 +78,7 @@ Decency requirements:
 - **Minimize cascade errors**: Once a single error is found the next few tokens would also likely be invalid, parser cant deterministically tell what the original intention was. It might report ghost errors which make it seem that the program is in a worst state than it is.  
 
 Distinct errors and minimizing cascade errors is at odds: we should report as many errors as we can but also try not to report ones that are sideeffects caused by an earlier error.  
-**Error recovery**: The way a oarser responds to the error and keeps going to report later errors.  
+**Error recovery**: The way a parser responds to the error and keeps going to report later errors.  
 One of the recovery techniques is called **panic mode**. When the parser detects an error, it enters panic mode, we know at least one token doesnt make sense.  
 Before continuing parsing, state and sequence of next tokens need to be aligned. This is called **synchronization**. We select a rule in grammar to mark a synchronization point, parser fixes state by jumping out of nested grammar rules till the start of the rule and syncs by discarding tokens until it reaches one of the sync points in the code.  
 This does mean that real syntax error in discarded tokens are missed, but also side effects are not falsely reported so good trade off.  
