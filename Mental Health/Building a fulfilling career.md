@@ -4,13 +4,32 @@ tags:
  - todo
 ---
 
-[Part 1](https://www.youtube.com/live/irIh9hU7lSE?si=D-VrozupAAlZpFfO)  
+[Part 1](https://youtu.be/irIh9hU7lSE)  
+[Quest](https://docs.google.com/document/d/1JGETgNqcUjrcDfNDTXCRb8KpUmH3BejGQ9l6cHvMhI0/edit?usp=sharing)  
+
 [Part 2](https://www.youtube.com/live/k0zrxbVxTlE?si=2HI6MaZBbk7_dUIQ)  
 
-## Part 1
+# Part 1
 
+## Official Outline
+- Reflect on how internalized desires and societal conditioning shape your career goals.
+- Assess the impact of external factors like burnout, lack of growth opportunities, and workload on your career satisfaction.
+- Examine internal challenges such as self-comparison, unrealistic expectations, and avoiding responsibility for your own growth.
+- Identify your natural strengths by exploring what genuinely interests you and strategize how to handle less enjoyable aspects of your job.
+- Evaluate what you bring to the table, including your skills, mindset, and emotional tendencies, to better understand your unique value.
+- Take time to reflect on your feelings about a job or your overall career before making significant decisions to gain clarity and direction.
 
-## Part 2
+## Intro
+Career is not about your 9 to 5 job. Career is about value we provide to society and the compensation we get for it back, usually in money.  
+Job is a packaged deal provided by the society to make the trade standardised.  
+We should not make the job a source of fulfilment.  
+Career is decades long and has breadth and can have multiple roles. It is a mistake to assume that grinding at your job will build a career. We need to continue personal growth.  
+If we want to become a polymath there is a consistent methodology that we need to apply.  
+
+To build a fulfilling career we need to be a lifelong learner. It is not about being intelligent or being polymath, it is continuous upskilling. We need to build a set of skills. Some skills we build, may not be appreciated in our current job but might be needed for our career.
+#todo 
+
+# Part 2
 Dont outsource your growth to your job, only you are responsible for this.  
 Understand what the job is: getting payment for work done and thats all, for retention they may give opportunities for growth but it is just an add on, only you are responsible.  
 

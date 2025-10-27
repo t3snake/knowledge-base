@@ -8,7 +8,8 @@ tags:
 ## Free Videos
 [[Stop caring about what you are told]]: https://www.youtube.com/watch?v=VPYOY6JquwY  
 [[Socially anxious extrovert]]: https://www.youtube.com/watch?v=2qGe9ctFP1o   
-[[Moving toward Enlightenment]]
+[[Moving toward Enlightenment]]  
+[[How to stay motivated]]
 
 ## Members Videos
 [[Communication 101]]  

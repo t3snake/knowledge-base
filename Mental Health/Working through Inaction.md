@@ -5,13 +5,15 @@ tags:
 ---
 
 [Video](https://youtu.be/4GdWyx-cjJc)  
+[Quest](https://docs.google.com/document/d/1NLBbVaAH9zB_WKCI2deM8yW1WHAlB5Ool1F2nuUhdmg/edit?usp=sharing)  
 
 ## Tools and Framework
 Why action is hard?  
 Watching videos != Action.  
 Info pipeline: Sensory organ -> associated cortex -> thalamus -> hippocampus.  
 Actions pipeline: Frontal lobes, ACC
-There needs to be a pipeline from hippocampus to frontal lobes to turn info into action.
+There needs to be a pipeline from hippocampus to frontal lobes to turn info into action.  
+Sometimes people can repeat information from their short term memory, but that information is not part of the calculation that brain makes. Like people who are chronically late
 
 This can be done by following:
 
@@ -21,11 +23,11 @@ Babies do this when they drop things, they are playing with gravity to understan
 
 - Apply it  
   To apply it you need to manipulate info to fit the context.  
-  In video games, if you just follow meta, you dont really understand, you need to manipulate the info and apply it. Following others meta like watching youtube will not make us understand.  
+  In video games, if you just follow meta, you dont really understand, you need to manipulate the info and apply it. Following others meta like watching youtube will not make us understand. Dont use other peoples meta build since unlike games each person has unique genes, experiences etc.  
 
 ### Repetition  
 You need to repeat a concept 6 times, the absorption increases with more repetition.
-We need to space out over time.
+We need to space out over time. We do this when we are kids, and also through out schooling. For complete absorption repetition is necessary.  
   ```
   Absorption
   |      o
@@ -35,33 +37,45 @@ We need to space out over time.
   ```
 
 ### Stretch your capacity/learning
+If we try to make life too easy, we will actually make it hard.  
+We need to stretch our limits. We need to try and grasp, understanding or not (outcome) is not important, it is the struggle and difficult that is important.  
 It feels bad but that is growth. When a video makes it easy, this does not happen.  
-Difficulty is where growth is. If it is easy, it is insufficient.  
+Difficulty is where growth is. If it is easy, it is insufficient since that is how we got here.  
 Difficulty is really `encoding` in your brain, thats how you wrap difficult concepts in your head. (Think school time)  
 
 ### Salience - Importance and Relevance
-If you want something it might just be a strong desire. If I dont do an action even though it is important.  
-Importance can look like salience (relevant) or attachment (want it/ need it). Attachment if it leads to negative emotion, you will start avoiding it.  
+You might think you want something and you still dont do it, that is because it is not that important/relevant to you, it is only important in some abstract sense.  
+A powerful desire is not salience. If you want something it might just be a strong desire.  
+Importance can look like `salience` (relevant) or `attachment` (want it/ need it). Attachment if it leads to negative emotion, you will start avoiding it.  
+
+Ask why is something important for you? Ignore the first 3 answers since that is how you got here. Then ask "how is it relevant to me"  
+Eg: doing an extra subject, most people dont care, for some it is relevant because they need As in all to get into competitive field so they give the extra subject extra care because it is relevant to their ambitions.  
+Eg: I am doing this dead end job because it is a stepping stone to a better one.  
 
 ### Novelty
 Likely to absorb more when things are new.  
-One way to do it is introduce novelty to tasks.
+One way to do it is introduce novelty to tasks.  
+How to make things novel? Figure it out, stretch your limits, dont use other peoples meta.  
 
 ### Stillness of the mind
 When the mind is still, information sinks in deeper.  
 Traumatized kids have still minds on their abusive parents, they are fully tuned in to their parent to detect the smallest fluctuation, in this state the learning goes deep.  
+How to make your mind still? Meditation, Salience, Novelty.  
 
-## How to order tools
-Deal with the axes over your head. The huge tasks *looming* over you that you are afraid of.  
-Spiritual perspective: looming axes are your karma, you just have to go through it. **Do you want to be ahead of this task or behind it?**  
+## How to order tasks
+
+### Axes over your head
+Deal with the `axes over your head: The tasks that make it difficult to do other tasks`. The huge tasks *looming* over you that you are afraid of.  
+Spiritual perspective: looming axes are your karma, you just have to go through it. Accept that it will suck and there is no way to avoid the suck `Do you want to be ahead of this task or behind it?`  
 This tasks hanging over you makes it harder to do other tasks.  
 Getting over it gives sense of freedom and release. Cleanse the debuff.  
 Eg: Uhh I need to get an extension for this paper. The action itself is not important, its putting it behind us that is important.  
 The reason to act is not to finish or progress but to put it behind you.  
 
+### Cherries on top
 #todo
-**Do the moderately important soul nourishing task first in the morning instead of the most important soul sucking task**. The soul nourishing task require a full tank.  
-Doing what you love requires you get over the dreadful stuff, because you need.
+**Do the moderately important soul nourishing task second in the morning instead of the moderately important soul sucking tasks (work)**. The soul nourishing task require a full tank. The moderately important tasks get done in last minute panic in a short time anyway.  
+Doing what you love requires you get over the dreadful stuff, because you need a full tank.  
 
 ## Shaping your environment
 *Body and mind is not you but your environment*, we need to shape these environments.  Body and mind wants to do things, not things that you want to do.  
@@ -70,16 +84,39 @@ We need to shape both internal and external environment.
 External environment influences internal environment through #indriyas internal senses which turn into desires for you.  
 We can clean up out internal environment by cleaning our external environment.  
 Phones for eg are trying (not necessarily to mind control) to shape internal environment and induce desires.  
+`We can either shape our external environment (which brain doesnt like) or let it influence internal environment and have a fight internally with willpower`
+The second option is what most people do, which is why they desire more willpower.  
 *Separate work and pleasure*
 
 Being motivated by do or die is because it changes our internal environment.  
 
 ### Rest, Recreation and Distraction
-Rest and Recreation are good ideas, distraction is a bad idea for environment.  
-The way we dont take action is critical for our future actions.  
+Rest and Recreation are good ideas, distraction is a bad idea for our environment.  
+`The way we dont take action is critical for our future actions.`  
+The way we dont act also wires inside our brain, making it harder to act in the future if we use distraction.  
 
-#todo until 106 mins
-### Emotions
+Eg: using phone ie. distraction is not only means of avoiding the task that has to be done, the depleted dopamine reserves means that it is extremely hard to do tasks and also when you finally do a task we dreaded, we dont even get reinforcement to do more of it.  
+We can have 2 different reaction to finish a task that we dreaded:  
+- Thank god it is over, I am glad I dont have to do this anymore, anxiety is gone, went from -100 to 0.  
+- Lets go, I did it, I did a really good job.  
+Both requires same effort and it is the same action. The difference is how much dopamine we have.  
+
+Distraction also suppresses negative #emotions. What we suppress, becomes intense. This creates a cycle when negative emotions intensifies, more we distract, which causes more suppression of emotions and ...  
+
+`The difference between recreation and distraction is when we finish that do we have more energy or less`  
+Gaming could be either recreation or distraction when we understand .
+
+Get rid of the distraction (hard to do) or ask yourself *Do I want this for myself tomorrow?*  
+
+### Emotion Cultivation
+What kind of emotions are we cultivating?  
+
+`What we hide within us, intensifies`  
+When there is a great idea and motivation, build it ; dont not talk about it ie. hide it, or else we will lose the motivation. When there is negative emotion or burden, we should talk about it and get rid of it.  
+
+One reason we struggle with negative emotion: when we face emotionally challenging situation, we think about it. If we think about it, try to solve it, we are paralyzing ourselves.  
+
+We want to solve a problem without paying the price.  
 We should reframe to for some action, *we have to pay a price*.  
 We can either feel good or take action.  
 Eg: I want to breakup without making them feel bad: this is hard. Breakup + make them feel bad is easy, not breaking up + not make them feel bad also is easy.  
