@@ -23,4 +23,7 @@ tags:
 [[Decison Making Deepdive]]: https://www.youtube.com/live/bNb89Joc3C0?si=ywwT3mM-EQCzlgKC  
 [[Working through Inaction]]  
 [[Science of Creativity]]  
+[[Chakras]]  
 [[Finding peace in chaos]]  
+[[Career Growth for ADHD]]  
+
