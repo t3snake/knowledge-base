@@ -150,8 +150,8 @@ We rewire every day, sometimes in bad ways. Result wise it may not look like pro
 ## Gunas
 #gunas  
 - Tamas #tamas supresses action. Laziness.  
-- Rajas #rajas acting a lot and not feeling good. If I am excited a lot slow down.  
-  If I have wired myself to impulse, if impulse goes away we cant act.  
+- Rajas #rajas acting a lot and not feeling good. If we are very excited; we should deliberately slow down.  
+  If we have wired myself to acting on impulse and the impulse goes away we cant act.  
   *Practice inaction when we have impulse to act* This is easier to Practice action when we dont have an impulse.  
 - Sattva #sattva is balance.  
 
