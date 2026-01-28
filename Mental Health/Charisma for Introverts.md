@@ -119,3 +119,5 @@ Tip: `Can I jump in for a second?`
 Over time we need to build distress tolerance with using these skills (like previous section)
 
 A lot of times we have a cool point to add to the conversation which migh win us some points. We cant wait 6 to 8 minutes until the topic is done.
+
+#todo
