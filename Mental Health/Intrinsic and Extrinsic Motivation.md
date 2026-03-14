@@ -9,6 +9,7 @@ tags:
 **Related Pages:**
 - [[Discipline]]
 - [[Working through Inaction]]
+- [[Defuse Procrastination without Willpower]]
 
 # Use Intrinsic Motivation instead of Willpower
 
@@ -88,4 +89,9 @@ This leads to more questions related to behavioral change #behavioral_change.
 
 [Video](https://youtu.be/bRBd7wTjoJg)
 
+[Research Paper](https://doi.org/10.1017/S0033291722001611)
+
 #todo
+If you do lot of optimization and productivity hacks, then #extrinsic_motivation is active.
+
+Only one of the circuits are active at a time and they sabotages or inhibit the other: Intrinsic and Extrinsic motivation.

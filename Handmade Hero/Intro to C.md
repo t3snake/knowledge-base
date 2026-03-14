@@ -1,7 +1,8 @@
 ---
 tags:
-  - c_programming
-  - handmade
+ - c_programming
+ - handmade
+ - programming
 ---
 
 [Handmade Hero - Intro to C](https://guide.handmadehero.org/intro-to-c/day1/)  

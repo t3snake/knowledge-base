@@ -2,6 +2,7 @@
 tags:
   - shell
   - golang
+  - programming
 ---
 
 [Github Repo](https://github.com/t3snake/shell-go-codecrafters)  

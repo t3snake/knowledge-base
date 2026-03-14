@@ -1,3 +1,10 @@
+---
+tags:
+ - programming
+ - c_programming
+ - handmade
+---
+
 #Day_10_Handmade
 
 # Preprocessor Method

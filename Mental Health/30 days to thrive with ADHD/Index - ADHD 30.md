@@ -1,7 +1,8 @@
 ---
 tags:
  - mental_health
- - adhd_30
+ - adhd
+ - index
 ---
 [Audible US](https://www.audible.com/?ipRedirectOverride=true)  
 [30 days to thrive with ADHD - Audible US](https://www.amazon.com/Audible-30-Days-Thrive-ADHD/dp/B0FNBB4XQ2)  

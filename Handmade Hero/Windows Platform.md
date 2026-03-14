@@ -2,6 +2,7 @@
 tags:
  - c_programming
  - handmade
+ - programming
 ---
 [Code summary](https://guide.handmadehero.org/code/day005/): 47:17  
 

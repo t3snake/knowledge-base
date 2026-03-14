@@ -1,7 +1,7 @@
 ---
 tags:
  - mental_health
- - adhd_30
+ - adhd
  - dopamine
 ---
 
