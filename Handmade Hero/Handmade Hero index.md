@@ -6,7 +6,6 @@ tags:
  - index
 ---
 
-[[Intro to C]]  
-[[Windows Platform]]  
+[[Intro to C]]
+[[Windows Platform]]
 [[Platform API Design]]
-
