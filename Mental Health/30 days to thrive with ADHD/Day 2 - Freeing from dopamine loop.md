@@ -5,15 +5,15 @@ tags:
  - dopamine
 ---
 
-ADHD ~= Vulnerability to dopamine.  
+ADHD ~= Vulnerability to dopamine.
 
 Dopamine is a neurotransmitter (a chemical in the brain).
-It creates different effects in different circuits.  
+It creates different effects in different circuits.
 
-- Smooth movement  
-  Deficiency leads to Parkinsons disease.  
-- Misolimbic Circuit  
-  This governs **pleasure**, **craving** and **behavioral reinforcement**.  
+- Smooth movement
+  Deficiency leads to Parkinsons disease.
+- Misolimbic Circuit
+  This governs **pleasure**, **craving** and **behavioral reinforcement**.
   It convinces other parts of the brain that *something not great* is a good idea.
 
 In people with ADHD, pleasure is really really fun.

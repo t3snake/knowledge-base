@@ -32,13 +32,13 @@ When you force yourself to do something, the more you have to force yourself to 
 
 Exception: Conscientiousness - some people are ok with expending willpower for long term goal without giving into desire. (those who can delay gratification)
 
-Willpower becomes a drug that the motivation circuitry is addicted to and needs more and more of. 
+Willpower becomes a drug that the motivation circuitry is addicted to and needs more and more of.
 
 `Willpower is a risk factor for action crises.`
 
 ## How to escape willpower trap
 
-Habit is about automatically doing things. 
+Habit is about automatically doing things.
 It completely bypasses the motivational circuitry.
 Habit raises the floor (going 0 to 50), but exceptional results come when utilizing the motivational circuits using our intrinsic motivation.
 
@@ -61,6 +61,7 @@ What makes this important to you?
 ```
 
 ## Action vs State
+
 People think in either **Action** or **State**.
 
 **Action**: what they want to do.
@@ -75,6 +76,7 @@ Eg:
 - Chasing euphoria through THC
 
 This leads to more questions related to behavioral change #behavioral_change.
+
 ```
 
 ```
@@ -82,7 +84,7 @@ This leads to more questions related to behavioral change #behavioral_change.
 ### Qualities of Extrinsic Motivation
 
 - If we pursue goals in response to rewards (pursuing a state) or punishment (avoiding a state)
-- Introjected Motivation - Feels like internal motivation but it actually comes from the external world. 
+- Introjected Motivation - Feels like internal motivation but it actually comes from the external world.
   We internalize external expectations.
 
 # Develop Intrinsic Motivation

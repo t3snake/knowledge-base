@@ -10,7 +10,7 @@ tags:
 
 Use #BoneAttachment3d node and set the bone to attach any notes as a child that moves along with the bone.
 
-Eg: Used to mount main char on spider's head 
+Eg: Used to mount main char on spider's head
 
 ## Physics interpolation
 

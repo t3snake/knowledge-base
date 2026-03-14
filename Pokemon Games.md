@@ -51,7 +51,6 @@ Sword + Expansion Pass DLC/Shield + Expansion Pass DLC
 Scarlet + Hidden Treasure Of Area Zero DLC/Violet + Hidden Treasure Of Area Zero DLC
 
 1. Yellow would give you the most faithful representation of a Gen 1 game and is most complete out of Red, Green, Blue & Yellow. Fire Red/Leaf Green is Red/Green but with Gen III Quality Of Life Changes plus has most post game. Let's Go Pikachu & Eevee is Yellow but on the Switch with modern stuff e.g No HMs +18 types + Megas & used Pokémon Go Mechanics.
-    
 
 2)Crystal was "the most complete" of the Gen II games so would give a faithful taste of Gen II. Heart Gold/Soul Silver are remakes done in the style of Gen IV + physical/Special split & the most content e.g Crystal has Battle Tower & Bug Catching+ Kanto for Post Game, Heart Gold/Soul Silver has the Gen IV Battle Frontier; Safari Zone Bug Catching; Pokeathlon + improved Kanto, as post game activities.
 
