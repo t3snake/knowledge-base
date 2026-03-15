@@ -4,13 +4,16 @@ tags:
   - index
 ---
 
+# Index - HG Videos
+
 [HG Member Video Playlist](https://www.youtube.com/playlist?list=UUMOlHVl2N3jPEbkNJVx-ItQIQ)
+
 [Search tool](https://hgsearch.ridhom.dev)
 
 ## Free Videos
 
-- [[Stop caring about what you are told]]: https://www.youtube.com/watch?v=VPYOY6JquwY
-- [[Socially anxious extrovert]]: https://www.youtube.com/watch?v=2qGe9ctFP1o
+- [[Stop caring about what you are told]]: <https://www.youtube.com/watch?v=VPYOY6JquwY>
+- [[Socially anxious extrovert]]: <https://www.youtube.com/watch?v=2qGe9ctFP1o>
 - [[Moving toward Enlightenment]]
 - [[How to stay motivated]]
 - [[Intrinsic and Extrinsic Motivation]]
@@ -26,7 +29,7 @@ tags:
 - [[Discipline]]
 - [[Detachment Deepdive]]
 - [[Anger Deepdive]]
-- [[Decison Making Deepdive]]: https://www.youtube.com/live/bNb89Joc3C0?si=ywwT3mM-EQCzlgKC
+- [[Decison Making Deepdive]]: <https://www.youtube.com/live/bNb89Joc3C0?si=ywwT3mM-EQCzlgKC>
 - [[Working through Inaction]]
 - [[Science of Creativity]]
 - [[Chakras]]

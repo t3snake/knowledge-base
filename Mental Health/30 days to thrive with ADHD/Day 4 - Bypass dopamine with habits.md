@@ -6,6 +6,8 @@ tags:
  - habits
 ---
 
+# Day 4 - Bypass dopamine with habits
+
 While frontal lobes are affected in the ADHD, our endocannabinoid system (Habit circuitry) is intact.
 We do have habits, but just the bad ones.
 `When we lose awareness, a habit takes over.`

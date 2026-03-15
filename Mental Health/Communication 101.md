@@ -4,6 +4,8 @@ tags:
  - todo
 ---
 
+# Communication 101
+
 [Video](https://www.youtube.com/live/64lqHV1w-lg?si=wHYbSdbobTMSm1XQ)
 
 ## How Speech Works in Brain

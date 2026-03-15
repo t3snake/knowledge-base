@@ -6,7 +6,9 @@ tags:
 ---
 
 [Part 1 - Video](https://youtu.be/xRSqwxYVbgg)
+
 [Part 1 - Quest](https://docs.google.com/document/d/16xpauDE5X83hY9i8L75AUlzzjB-l9DOsI5zUcAa6cgY/edit?usp=sharing)
+
 [Part 2 - Video](https://youtu.be/G7XkEEOBOwg)
 
 # Part 1

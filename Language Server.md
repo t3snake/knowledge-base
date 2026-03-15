@@ -1,3 +1,5 @@
+# Language Server
+
 lang server youtube
 
 One nice resource that I found is a series of videos by Aleksey Kladov, the creator of rust-analyzer (an LSP server for Rust), explaining how rust-analyzer works:

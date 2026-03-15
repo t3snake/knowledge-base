@@ -3,6 +3,8 @@ tags:
  - mental_health
 ---
 
+# Moving toward Enlightenment
+
 [Video](https://youtu.be/qwQrwPhK06I)
 
 Enlightenment seems to be forever happiness/contentment. There doesnt seem to be much evidence for this. Research on hapiness just gives circumstance, not always actionable.
