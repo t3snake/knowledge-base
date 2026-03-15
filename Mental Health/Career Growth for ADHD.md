@@ -32,5 +32,7 @@ There is an executive functioning deficit:
 - #Amygdala which is in limbic system -> anxious, shamed
 - Frontal lobes -> suppress impulses, Maintain focus
 
-We have to try very hard to control ourselves/restrain ourselves from interrupting etc ie. masking. This depletes our battery.
+We have to try very hard to control ourselves/restrain ourselves from interrupting etc ie. masking.
+This depletes our battery.
+
 The biggest depletion is the shame we carry around.
