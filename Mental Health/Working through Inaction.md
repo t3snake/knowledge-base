@@ -2,9 +2,14 @@
 tags:
  - mental_health
  - todo
+ - motivation
+ - willpower
 ---
 
+# Working through Inaction
+
 [Video](https://youtu.be/4GdWyx-cjJc)
+
 [Quest](https://docs.google.com/document/d/1NLBbVaAH9zB_WKCI2deM8yW1WHAlB5Ool1F2nuUhdmg/edit?usp=sharing)
 
 ## Tools and Framework

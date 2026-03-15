@@ -4,6 +4,8 @@ tags:
   - todo
 ---
 
+# Psychology of money
+
 [Video](https://www.youtube.com/watch?v=18y_XMddUWY)
 
 Expectation of insufficient mastery makes you avoid the task (eg: reading a book and not absorbing everything)

@@ -3,8 +3,11 @@ tags:
  - mental_health
 ---
 
-[Worksheet](https://docs.google.com/document/d/1H_1wTY_HcjrIGJsK5rC4Zy6pcDn549bhwoYMU_9dJjk/edit?usp=sharing)
-[Dr K Video](https://www.youtube.com/watch?v=MS69T-kRtOM)
+# Root of tiredness
+
+[Video](https://www.youtube.com/watch?v=MS69T-kRtOM)
+
+[Quest](https://docs.google.com/document/d/1H_1wTY_HcjrIGJsK5rC4Zy6pcDn549bhwoYMU_9dJjk/edit?usp=sharing)
 
 Negative to neutral to positive path is impaired if avoiding negative is the motivation since cant move from neutral to positive.
 

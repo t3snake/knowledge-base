@@ -4,6 +4,8 @@ tags:
  - godot
 ---
 
+# Godot 3D Nodes
+
 [Godot Recipes](https://kidscancode.org/godot_recipes/4.x/3d/index.html)
 
 ## Attaching to Bone

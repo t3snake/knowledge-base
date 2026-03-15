@@ -1,8 +1,9 @@
+# Design Inspiration
+
 ## Portfolio
 
-https://shud.in/
+[Shud portfolio](https://shud.in/)
 
-https://www.reddit.com/r/minimalism/comments/13k2pob/minimalist_portfolio_websites/
+[Minimalist Portfolios Reddit](https://www.reddit.com/r/minimalism/comments/13k2pob/minimalist_portfolio_websites/)
 
-Gumroad
-https://michafrar.gumroad.com/l/pixel-logic
+[Gumroad Website](https://michafrar.gumroad.com/l/pixel-logic)

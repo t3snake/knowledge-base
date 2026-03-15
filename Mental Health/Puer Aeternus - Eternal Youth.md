@@ -5,6 +5,7 @@ tags:
 ---
 
 [Part 1 Video](https://www.youtube.com/live/bMa9dAYdTE0?si=s1M13wzqaQQUJG-3)
+
 [Part 2 Video](https://www.youtube.com/live/aGFqdVqDhqo?si=d7R3NQ1NIq9f7dwL)
 
 ## Notes

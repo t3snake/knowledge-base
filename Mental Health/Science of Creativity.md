@@ -4,7 +4,10 @@ tags:
  - todo
 ---
 
+# Science of Creativity
+
 [Video](https://youtu.be/y_SGTRg5ZIs)
+
 [Quest](https://docs.google.com/document/d/1z0rszvqSyvYHJHYlKLC7jIF2mgDKITxM0wVWaZp9sIE/edit?usp=sharing)
 
 ## Official Outline

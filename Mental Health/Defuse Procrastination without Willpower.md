@@ -5,9 +5,12 @@ tags:
  - procrastination
 ---
 
+# Defuse Procrastination without Willpower
+
 [Video](https://youtu.be/VBifDZwPiI4)
 
 Procrastination shows up in following:
+
 - There is tension between what we want to do (videogames) and what we should do (study)
 - When there is a lot of things you want to do and lot of things that we should do
 

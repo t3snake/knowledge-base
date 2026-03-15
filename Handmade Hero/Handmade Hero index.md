@@ -6,6 +6,8 @@ tags:
  - index
 ---
 
-[[Intro to C]]
-[[Windows Platform]]
-[[Platform API Design]]
+# Handmade Hero index
+
+- [[Intro to C]]
+- [[Windows Platform]]
+- [[Platform API Design]]

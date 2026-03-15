@@ -5,6 +5,8 @@ tags:
  - programming
 ---
 
+# Intro to C
+
 [Handmade Hero - Intro to C](https://guide.handmadehero.org/intro-to-c/day1/)
 
 Compiling checks for errors and produces intermediate files which are mostly code that computer can run but still missing then linking is done.
@@ -34,7 +36,7 @@ Overflow example: char unsigned int = 255 (8bit) for ++ it overflows to 0.
 32bit register does increment > 100 (Hex) but since char is 8 bits it only takes last 2 digits corresponding to 8 bits.
 Processor doesn't do extra work thus its 00 in Hex or 0 in 10 base.
 
-Virtual memory is not the exact memory address but aa virtual one so that other programs cant access for eg. password in another process
+Virtual memory is not the exact memory address but aa virtual one so that other programs cant access for eg. password in another process.
 
 Endian > Big and little is just ordering of bits/bytes.
 
@@ -50,7 +52,8 @@ Structs may use different blocks of memory instead of next to each other.
 Stack, variables added to stack, when function returns to caller, all the stack variables is cleared.
 Can only delete from top.
 
-CPU to ram distance (8cm approx) , speed of light / 3.2ghz = 8cm. i.e. even a photon cant make a round trip in a single clock cycle.
+CPU to ram distance (8cm approx) , speed of light / 3.2ghz = 8cm.
+i.e. even a photon cant make a round trip in a single clock cycle.
 Thus memory is expensive.
 Optimization ram built into the CPU?
 
@@ -63,13 +66,16 @@ In CPU, L1 cache is closest, then L2 and L3 which are pieces of memory on CPU to
 
 Even though pointers are size 4 ie stores address, C needs to know what it is printing at so type matters but we can cast to 1byte pointer for a 16 byte type and then work on single bytes.
 
-Arrays are basically pointers. int array\[30] -> no need to do &array, array points to the first index automatically.
+Arrays are basically pointers.
+int array\[30] -> no need to do &array, array points to the first index automatically.
 
 In c when we do `(ptr + 30)->member`, it basically already converts to `ptr + 30 * sizeof(ptr)`
 
-If we want to do manual we might need to do `(ptr_type * ) ( (char * )ptr + 30 * sizeof(ptr))` to basically do what `(ptr + 30)` does. Cast to `char *` to work in single bytes.
+If we want to do manual we might need to do `(ptr_type * ) ( (char * )ptr + 30 * sizeof(ptr))` to basically do what `(ptr + 30)` does.
+Cast to `char *` to work in single bytes.
 
-If not pointer `ABC.member`, if pointer `ABC->member`. There is no other special difference.
+If not pointer `ABC.member`, if pointer `ABC->member`.
+There is no other special difference.
 
 In debug mode visual studio puts in 204 in all unassigned/garbage memory.
 Its basically 0xCC in hex which dev can quickly see that it is uninitialized.
@@ -89,7 +95,7 @@ in hexadecimal
     x = 10    // 0x00000a  
     x = x << 4    // 0x0000a0  
 
-1 digit in hex is 4 digits in binary << and >> work with binary digits
+1 digit in hex is 4 digits in binary << and >> work with binary digits.
 In C by default if shifted out of range, the bit is lost and cant be recovered.
 
 > **Note**: whatever we do a **<< 1** on will be doubled and **>> 1** will be halved (if no bits lost).

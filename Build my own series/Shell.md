@@ -6,6 +6,8 @@ tags:
   - build_your_own
 ---
 
+# Shell
+
 [Build your own Shell - Codecrafters](https://app.codecrafters.io/courses/shell/overview)
 
 [Github - t3snake/goshell](https://github.com/t3snake/goshell)
@@ -21,7 +23,6 @@ tags:
 	- The input is parsed into arguments by the `parseArgs` function, which handles quotes, escapes, and spaces.
 	- The shell first checks for built-in commands (`echo`, `cd`, `pwd`, `history`, `type`, and `exit`).  
 	- If a command is not a built-in, it looks for the executable in the system `PATH` using `isInPath` and executes it via `execPathCmd`.
-
 - **Redirection:**
 	The `fileForRedirect` function inspects the arguments for redirection operators (such as `>`, `2>`, `>>`, `2>>`) and, if found, the output is written using `writeResultToFile`.
 	- `>` or `1>` writes (or overwrites) `stdout` to file mentioned
@@ -69,7 +70,6 @@ tags:
 	- `addToPrefixTree` inserts each command into the tree.
 	- `searchPrefixTree` walks the tree based on the current input prefix to find matching commands.
 	- `getAllChildrenAsList` recursively collects all completions from a given node.
-
 - **Common Denominator:**
 	The function `getCompletionDenominator` is used to identify and auto-complete the common prefix among multiple completions as a partial completion.
 

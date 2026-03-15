@@ -5,6 +5,8 @@ tags:
  - procrastination
 ---
 
+# Day 1 - Making procrastination work for you
+
 If we do only 1 thing, we get bored.
 If we do too much, then we get overwhelmed.
 ADHD people are dynamic and excitable.
