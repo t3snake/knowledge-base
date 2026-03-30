@@ -3,5 +3,6 @@
   "monospaceFontFamily": "Fira Code",
   "textFontFamily": "Helvetica Neue",
   "interfaceFontFamily": "Helvetica Neue",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "cssTheme": "AnuPpuccin"
 }
