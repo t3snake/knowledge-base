@@ -97,6 +97,8 @@ An empty database would have atleast a single page for the internal schema table
 Any additional tables (and other types) would add more pages.
 In some cases each table can span multiple pages.
 
+The first page always has 100 bytes reserved for database header.
+
 `All tables are b-tree pages.`
 
 Pages are numbered beginning with 1.
@@ -121,3 +123,36 @@ Each page has single use which is:
 ### B-tree Pages
 
 [Official Docs - File Format - B-tree Pages](https://www.sqlite.org/fileformat.html#b_tree_pages)
+
+[SQLite File Format representation](https://torymur.github.io/sqlite-repr)
+
+Great explanation walking from binary trees to B-trees:\
+[B-Tree Youtube playlist](https://www.youtube.com/playlist?list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+
+In a nutshell, just like how binary trees split the range of numbers into two branches one side less, and the other side greater.
+234 Trees and up split into 2, 3 or 4 branches based on number of keys.
+In Binary Search Tree there is a single key that splits branch, in 234+ trees, there are multiple keys K which split into K+1 branches.
+Each branch is between 2 keys (lesser than bigger key and bigger than smaller key)
+
+SQLite uses B* Trees which means that all the data is stored in leaf nodes.
+
+The very first page in the database contains the database header (100 bytes).
+Subsequent pages start directly with B-tree page header
+
+#implementation 
+In code to get the number of tables, we look at the first B-Tree header right after 100 byte database header.
+To get page size we already moved 16 bytes and then read 2 bytes so the seek has processed 18bytes.
+At offset 3 in B-Tree page header, 2 byte int tells us the number of cells in the B-Tree page.
+Since the very first B-Tree is the internal schema table, the number of cells gives us the number of tables. 
+(Technically we would also get index other than tables, but we assume there are only tables at the moment.)
+
+### Cell Pointer Array
+
+The Cell pointer array comes right after B-Tree Page header.
+They are array of 2-byte big-endian values that store the offsets, relative to start of the page.
+The array size is equal to the number of cells on the page, which is already read from the page header.
+
+#implementation 
+For now I am just using the cell content start address, for multiple records, I might have to use the cell pointer array.
+
+### Record
