@@ -9,8 +9,7 @@ tags:
 
 [Build your own SQLite - Codecrafters](https://app.codecrafters.io/courses/sqlite/overview)
 
-#todo own github repo
-[Github - t3snake/csqlite](github.com/t3snake/csqlite)
+[Github - t3snake/csqlite](https://github.com/t3snake/csqlite)
 
 ## dot commands
 
@@ -38,7 +37,7 @@ data version:        1
 
 [Official Doc](https://www.sqlite.org/schematab.html)
 
-This is a single internal table sqlite uses in each database.
+This is a single internal table sqlite uses in each database - `sqlite_schema`.
 The schema for a database is a description of all other tables, indexes, triggers and views contained in the database.
 
 Schema tables has following columns/properties:
@@ -55,6 +54,12 @@ Schema tables has following columns/properties:
   For other types this is `0` or `NULL`
 - **sql**:
   SQL text that can create the table the row represents.
+
+#implementation   
+table name, rootpage and #todo sql string are stored after querying the schema table.
+To go the the tablename you have to seek to `(rootpage_number - 1) * page_size` to go to the table's B-Tree page.
+The very first page size starting from 0 is the schema table itself (rootpage 1 since sqlite wise index starts from 1).
+The next table onwards have rootpage equal to 2 or more.
 
 ## Database file
 
@@ -84,6 +89,18 @@ Value `1` represents a page size of `65536`
 
 #implementation
 In code, we start reading file, skip 16 bytes and then read the next 2 bytes to get the page size.
+
+### SQL Table Representation
+
+[Official Doc - Representation of SQL Tables](https://www.sqlite.org/fileformat.html#record_sort_order)
+
+Each ordinary SQL table in the Database Schema is represented on-disk by a table `b-tree` page.
+Each entry in the table b-tree is a row of SQL Table.
+`rowid` of SQL table is the 64-bit signed int key for each entry in table b-tree.
+
+Content of each row is stored in the DB file by first combining value in various columns into a byte array in record format, then storing that byte array as payload in an entry in table b-tree.
+Record columns are in the same order as the sql statement stored in `sqlite_schema` table.
+
 
 ### Pages
 
@@ -126,7 +143,7 @@ Each page has single use which is:
 
 [SQLite File Format representation](https://torymur.github.io/sqlite-repr)
 
-Great explanation walking from binary trees to B-trees:\
+Great explanation building intuition from binary trees to B-trees:
 [B-Tree Youtube playlist](https://www.youtube.com/playlist?list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
 
 In a nutshell, just like how binary trees split the range of numbers into two branches one side less, and the other side greater.
@@ -146,6 +163,11 @@ At offset 3 in B-Tree page header, 2 byte int tells us the number of cells in th
 Since the very first B-Tree is the internal schema table, the number of cells gives us the number of tables. 
 (Technically we would also get index other than tables, but we assume there are only tables at the moment.)
 
+#implementation  
+At offset 3 in B-Tree page header, in case of internal table it tells the number of tables (including num of indexes).
+In case of a normal table, it tells the `count(*)` of the table ie. the total number of rows.
+
+
 ### Cell Pointer Array
 
 The Cell pointer array comes right after B-Tree Page header.
@@ -153,6 +175,42 @@ They are array of 2-byte big-endian values that store the offsets, relative to s
 The array size is equal to the number of cells on the page, which is already read from the page header.
 
 #implementation 
-For now I am just using the cell content start address, for multiple records, I might have to use the cell pointer array.
+I store array of offsets (from start of page), that points to multiple records from the cell pointer array.
+Which can be then seeked to go over the table rows.
 
 ### Record
+
+Payload, either table b-tree data or index b-tree keys, is always in the "record format".
+The record format defines a sequence of values corresponding to columns in a table or index.
+The record format specifies the number of columns, the datatype of each column, and the content of each column.
+
+```
+Varint
+It is a way to save size. It can store an signed integer in 1 to 9 bytes.
+The MSB of each byte contains 
+```
+
+Record contains a header and a body.
+In the **record header** , the first varint is the header size (including the size of header size).
+After that there are one or more varints corresponding with each column of the table.
+These column varints are something called **serial type**.
+
+| Serial Type |Content Size| Meaning |
+|-------------|------------|---------|
+| 0           | 0          | Value is a NULL. |
+| 1           | 1          | Value is an 8-bit twos-complement integer. |
+| 2           | 2          | Value is a big-endian 16-bit twos-complement integer. |
+| 3           | 3          | Value is a big-endian 24-bit twos-complement integer. |
+| 4           | 4          | Value is a big-endian 32-bit twos-complement integer. |
+| 5           | 6          | Value is a big-endian 48-bit twos-complement integer. |
+| 6           | 8          | Value is a big-endian 64-bit twos-complement integer. |
+| 7           | 8          | Value is a big-endian IEEE 754-2008 64-bit floating point number. |
+| 8           | 0          | Value is the integer 0. (Only available for [schema format](https://www.sqlite.org/fileformat2.html#schemaformat) 4 and higher.) |
+| 9           | 0          | Value is the integer 1. (Only available for [schema format](https://www.sqlite.org/fileformat2.html#schemaformat) 4 and higher.) |
+| 10, 11      | _variable_ | _Reserved for internal use. These serial type codes will never appear in a well-formed database file, but they might be used in transient and temporary database files that SQLite sometimes generates for its own use. The meanings of these codes can shift from one release of SQLite to the next._ |
+| N≥12 & even | (N-12)/2   | Value is a BLOB that is (N-12)/2 bytes in length. |
+| N≥13 & odd  | (N-13)/2   | Value is a string in the [text encoding](https://www.sqlite.org/fileformat2.html#enc) and (N-13)/2 bytes in length. The nul terminator is not stored. |
+
+Immediately after the `record header` comes the **record body** with content size of each column as described in the header in `serial type`.
+
+`Note: Record might have fewer values than the number of columns. This can happen during ALTER TABLE..ADD COLUMN, that increases number of columns without modifying preexisting rows.`
