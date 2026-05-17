@@ -40,6 +40,10 @@ Following allows to build in a separate dir from source (which contains the `CMa
 
 `cmake -B <build_dir> -S <source_dir>`
 
+For debug build use flag:
+
+`-DCMAKE_BUILD_TYPE=Debug`
+
 There is a generator concept - a config option that links with which compiler is used.
 If the build was done in a different VS version and then the VS version is changed, then the following command needs to run. 
 (some files from existing file would need to be deleted)
