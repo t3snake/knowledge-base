@@ -7,7 +7,11 @@ tags:
  - debug
 ---
 
-## Minimal Build Setup - Win
+# C Build system 
+
+## Win64
+
+### Minimal Build Setup - Win
 
 Easy solution is to download the full Visual Studio IDE. Which takes lot of space and has too many slop features.
 
@@ -20,7 +24,7 @@ Opening this gives access to the compiler command `cl`
 
 To add it to path and have access to this easily: follow Handmade Hero Episode 1 by Casey [[Handmade Hero index]]
 
-## Direct compile
+### Direct compile
 
 If a project with solution is made in Visual Studio IDE, then a simple F5 works to compile and debug.
 But if you want to maintain your own folder structure and not use solution then it is much less headache to manually use the `cl` option to compile in `Developer Powershell for VS`
@@ -30,6 +34,19 @@ See the main readme of [aoc25 - Github](https://github.com/t3snake/aoc25) for st
 Compile with debug info (PDB and O files):
 
 `cl -Zi <filename.cpp>`
+
+## Mac OS
+
+To install CMake, install cmake which installs CMake GUI which has instructions to add program to path.
+
+To always update path `.zshrc` file needs to be updated to update the path.
+`export PATH=...` only seems to work in current session.
+
+`source ~/.zshrc` to live update the session with latest changes in `.zshrc`
+ 
+ For debug build in macos the following is required, windows does not seem to require this.
+ 
+`-DCMAKE_BUILD_TYPE=Debug`
 
 ## CMake basics
 
@@ -45,7 +62,7 @@ For debug build use flag:
 `-DCMAKE_BUILD_TYPE=Debug`
 
 There is a generator concept - a config option that links with which compiler is used.
-If the build was done in a different VS version and then the VS version is changed, then the following command needs to run. 
+If the build was done in a different VS version and then the VS version is changed, then the following command needs to run.
 (some files from existing file would need to be deleted)
 
 `cmake -G "Visual Studio 17 2022" -B <build_dir> -S <source_dir>`

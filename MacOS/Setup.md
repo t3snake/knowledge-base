@@ -19,6 +19,20 @@ Reverse behavior for non-apple mouse and touchpad
 
 Use `Scroll Reverser`
 
-## Package Manager
+
+## Terminal
+
+Current: `Ghostty`
+
+### Package Manager
 
 Using `brew` at the moment.
+
+### Update path always
+
+To always update path `.zshrc` file needs to be updated to update the path.
+`export PATH=...` only seems to work in current session.
+
+### Live update terminal session with latest config
+
+`source ~/.zshrc` to live update the session with latest changes in `.zshrc`
