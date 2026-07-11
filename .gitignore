@@ -1,4 +1,5 @@
 **/.DS_Store
 .obsidian/workspace.json
-.obsidian/plugin/**/*.*
-!.obsidian/plugin/**/data.json
+
+.obsidian/plugins/**/*.*
+!.obsidian/plugins/**/data.json
