@@ -17,7 +17,10 @@ With dense models, all params are active so 8gb VRAM could not run more than 9b 
 
 - CUDA Drivers for Nvidia: [CUDA Install in Fedora Immutable systems](https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/CUDA-FEDORA.md)
 - CUDA Build of Llama.cpp for Linux (Should be built from source, no ready binary): [Install Instructions](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md#cuda)
-- Toolbox distro (as per CUDA Build instructions) 
-  Since CUDA cant be installed in immutable systems like bazzite based on fedora
+- Toolbox distro (as per CUDA Build instructions)  
+  Since CUDA cant be installed in immutable systems like bazzite based on fedora.
+  ```
+  toolbox enter --container fedora-toolbox-41-cuda
+  ```
 
 Reading reference: 
