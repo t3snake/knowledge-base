@@ -9,10 +9,11 @@
 ## How to install stuff
 
 - There seems to be simple executable programs such as **Godot** and **Blender** that launches just like an exe in all linux distros. (Why not go this route for all?)
-- There is **AppImage** which is a new portal file that can simply be launched. (Use **Gear Level** in KDE to manage appimages). It brings all it's dependencies.
+- There is **AppImage** which is a new portal file that can simply be launched. (Use **Gear Level** in KDE to manage appimages). It brings all it's own dependencies, thus have a bigger binary size.
 - There is **FlatPak** which all run in a separate container. This allows to dodge bugs in a distro that can just use a container based in different distro to execute fine. Launch seems to be slow. This is popular and there is also **FlatHub**.
 - Each distro / or distro it is based on uses their own repositories for installing apps such as `snap`, `ostree`, `apt-get` etc. Containerization can allow a distro to use others.
-- `homebrew` seems to be viable option but it has less apps than Mac. (Ghostty available through brew in mac but not in linux). Linux brew seems to advertize "CLI based apps".
+- `homebrew` seems to be viable option but it has less apps than Mac. (Ghostty available through brew in mac but not in linux). Linux brew seems to advertize "CLI based apps". Cask is for GUI apps.
+- One more option is to install RPM either into the system image (discouraged) or add it in a distrobox and then export as apps, which is similar to Flatpak.
 
 ## PATH and env var
 

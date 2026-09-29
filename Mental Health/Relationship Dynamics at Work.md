@@ -12,7 +12,7 @@ tags:
 
 Think in terms of ROI
 
-## Being someone likable at work ie. Being Responsible
+## Being likable at work / Responsible
 
 - Owning the outcome.
 - Obstacle
