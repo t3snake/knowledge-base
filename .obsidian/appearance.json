@@ -4,5 +4,6 @@
   "textFontFamily": "Helvetica Neue",
   "interfaceFontFamily": "Helvetica Neue",
   "baseFontSize": 17,
-  "cssTheme": "AnuPpuccin"
+  "cssTheme": "AnuPpuccin",
+  "showRibbon": true
 }

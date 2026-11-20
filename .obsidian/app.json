@@ -5,6 +5,6 @@
   "vimMode": true,
   "spellcheck": false,
   "alwaysUpdateLinks": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showInlineTitle": false
 }

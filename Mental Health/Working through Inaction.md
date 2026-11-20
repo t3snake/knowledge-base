@@ -16,8 +16,11 @@ tags:
 
 Why action is hard?
 Watching videos != Action.
+
 Info pipeline: Sensory organ -> associated cortex -> thalamus -> hippocampus.
+
 Actions pipeline: Frontal lobes, ACC
+
 There needs to be a pipeline from hippocampus to frontal lobes to turn info into action.
 Sometimes people can repeat information from their short term memory, but that information is not part of the calculation that brain makes. Like people who are chronically late
 
@@ -154,13 +157,13 @@ Use calendars and timers.
 
 Originally made for ADHD.
 We usually start immediately when we get an impulse. When we give in to impulse to start, we train our impulse to stop.
-**Stop before acting** Dont start immediately. Think about what we are going to do.
-**Defining the main goal and scope** This shows rusty frontal lobes.
+- **Stop before acting** Dont start immediately. Think about what we are going to do.
+- **Defining the main goal and scope** This shows rusty frontal lobes.
 When will I stop?
-**Break up the goal to 2 to 5 pieces** before getting started.
-**Check in. Artificially induce a pause** Take a break for 10 mins but keep it in your mind.
+- **Break up the goal to 2 to 5 pieces** before getting started.
+- **Check in. Artificially induce a pause** Take a break for 10 mins but keep it in your mind.
 Am I staying on task or not? (ans not important, it is checking in)
-**Reflect**: When we finish a task, we react by just forgetting about it, we should reflect and it might feel painful, but we should feel it, will make us feel better tommorow.
+- **Reflect**: When we finish a task, we react by just forgetting about it, we should reflect and it might feel painful, but we should feel it, will make us feel better tommorow.
 How did I do? What am I going to do next time? (dont have vague answer, the first ans in your head > discard it)
 This is difficult, we have to rewire into a different person. *We will feel bad, but we should act despite it* and that will lead to freedom. Bad emotion is a good thing.
 
