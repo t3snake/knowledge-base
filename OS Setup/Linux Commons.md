@@ -5,6 +5,7 @@
 - `journalctl -b -1 -k` to get system logs from crashes.
 - `systemd-analyze` to get boot time in short.
 - `systemd-analyze blame` to get boot time of all services.
+- `ddcutil` is the package that allows brightness adjustment for montiors using DDC/CI protocol
 
 ## How to install stuff
 
